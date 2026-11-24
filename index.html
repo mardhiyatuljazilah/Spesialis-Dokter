@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazilah | Konsultasi Medis</title>
+
+    <!-- Font dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- File CSS external -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- [A] HEADER & MENU -->
+    <header class="navbar">
+        <div class="container navbar-isi">
+            <a href="#" class="text"><span class="biru">Muhiris</span> Doctor</a>
+
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="hamburger" aria-label="Buka menu">&#9776;</label>
+
+            <nav class="menu">
+                <ul class="menu-link">
+                    <li><a href="#" class="aktif">Beranda</a></li>
+                    <li><a href="#layanan">Spesialisasi</a></li>
+                    <li><a href="#tentang">Dokter</a></li>
+                    <li><a href="#riwayat">Rawat Jalan</a></li>
+                    <li><a href="#ulasan">Tentang Layanan</a></li>
+                </ul>
+                <div class="menu-tombol">
+                    <a href="#" class="tombol">Buat Janji</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- [/A] -->
+
+    <main>
+    <!-- [B] HERO -->
+    <section class="hero">
+        <div class="container hero-isi">
+            <div class="hero-teks">
+                <h1>Dapatkan <span class="biru">Konsultasi Medis dari Ahlinya!</span></h1>
+                <p>Dokter kami siap memberi saran medis yang tepat untukmu. Hubungi tim kami dan mulai berdiskusi hari ini.</p>
+
+                <form class="cari">
+                    <label class="cari-pilihan">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.3-7-11.5A7 7 0 0 1 19 9.5C19 14.7 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+                        <select aria-label="Nama dokter">
+                            <option>Cari dokter di lokasimu</option>
+                            <option>dr. Bahar Biru</option>
+                            <option>dr. Ahmad</option>
+                            <option>dr. Syarifah</option>
+                        </select>
+                    </label>
+                    <button type="button" class="cari-tombol" aria-label="Cari">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M16 16l4 4"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="hero-gambar">
+            <img src="dokter-hero-pr.png" alt="Dokter berjas putih dengan stetoskop">
+        </div>
+    </section>
+    <!-- [/B] -->
+
+    <!-- [C] Tentang Kami -->
+    <section id="tentang" class="bagian">
+        <div class="container dua-kolom">
+            <img class="foto" src="dokter.png" alt="Dokter diskusi bersama">
+            <div class="teks">
+                <p class="label">Tentang Kami</p>
+                <h2 class="judul-bagian">Praktik Medis Preventif, Preskriptif &amp; Kuratif Kelas Dunia</h2>
+                <p>Di dunia kesehatan, kami menjadikan keselamatan pasien, efektivitas pengobatan, transparansi dalam setiap praktik, dan ketepatan waktu pelayanan sebagai kewajiban utama kami.</p>
+                <a href="#" class="tombol">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+    <!-- [/C] -->
+
+    <!-- [D] Spesialisasi -->
+    <section id="layanan" class="bagian">
+        <div class="container">
+            <div class="judul-tengah">
+                <h2 class="judul-bagian">Spesialisasi Kami</h2>
+                <p>Layanan kelas dunia dari tim medis terbaik untukmu!</p>
+            </div>
+            <div class="layanan-list">
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon1.png" alt=""></div>
+                    <h3>Kedokteran Gigi</h3>
+                    <p>Isi formulir konsultasi dengan tim Kedokteran Gigi kami</p>
+                </article>
+                <article class="kartu aktif">
+                    <div class="kartu-ikon"><img src="ikon2.png" alt=""></div>
+                    <h3>Diagnosis Umum</h3>
+                    <p>Isi formulir konsultasi dengan tim Diagnosis Umum kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon3.png" alt=""></div>
+                    <h3>Bedah Saraf</h3>
+                    <p>Isi formulir konsultasi dengan tim Bedah Saraf kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon4.png" alt=""></div>
+                    <h3>Kardiologi</h3>
+                    <p>Isi formulir konsultasi dengan tim Kardiologi kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon5.png" alt=""></div>
+                    <h3>Farmasi</h3>
+                    <p>Isi formulir konsultasi dengan tim Farmasi kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon6.png" alt=""></div>
+                    <h3>Tenaga Terlatih</h3>
+                    <p>Isi formulir konsultasi dengan tim Tenaga Terlatih kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon7.png" alt=""></div>
+                    <h3>Pemetaan DNA</h3>
+                    <p>Isi formulir konsultasi dengan tim Pemetaan DNA kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon8.png" alt=""></div>
+                    <h3>Oftalmologi</h3>
+                    <p>Isi formulir konsultasi dengan tim Oftalmologi kami</p>
+                </article>
+                <article class="kartu">
+                    <div class="kartu-ikon"><img src="ikon9.png" alt=""></div>
+                    <h3>Bantuan Medis</h3>
+                    <p>Isi formulir konsultasi dengan tim Bantuan Medis kami</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- [/D] -->
+
+    <!-- [E] Integritas -->
+    <section id="riwayat" class="bagian">
+        <div class="container dua-kolom">
+            <div class="foto-susun">
+                <img class="foto" src="dokter1.png" alt="Dokter wanita">
+                <img class="foto" src="dokter2.png" alt="Dokter pria berkacamata">
+                <img class="foto" src="dokter3.png" alt="Dokter pria berjas putih">
+                <img class="foto" src="dokter4.png" alt="Dokter diskusi bersama">
+            </div>
+            <div class="teks">
+                <p class="label">Integritas</p>
+                <h2 class="judul-bagian">Praktik Medis Preventif, Preskriptif &amp; Kuratif Kelas Dunia</h2>
+                <p>Di dunia kesehatan, kami menjadikan keselamatan pasien, efektivitas pengobatan, transparansi dalam setiap praktik, dan ketepatan waktu pelayanan sebagai kewajiban utama kami.</p>
+                <a href="#" class="tombol">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+    <!-- [/E] -->
+
+    <!-- [F] Ulasan -->
+    <section id="ulasan" class="bagian">
+        <div class="container">
+            <div class="ulasan-atas">
+                <div>
+                    <h2 class="judul-bagian">Baca ulasan tentang layanan dan tim kami yang luar biasa!</h2>
+                    <p>Kami merawat pasien seperti keluarga sendiri. Simak langsung dari para pasien kami.</p>
+                </div>
+                <div class="panah">
+                    <button type="button" aria-label="Sebelumnya">&#8249;</button>
+                    <button type="button" aria-label="Berikutnya">&#8250;</button>
+                </div>
+            </div>
+
+            <div class="ulasan-list">
+                <article class="ulasan-kartu">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6449 20.3832C12.6449 21.5795 12.2262 22.5813 11.3888 23.3888C10.5514 24.1963 9.50469 24.6 8.24862 24.6C7.05236 24.6 6.03554 24.1365 5.19815 23.2094C4.36077 22.2823 3.94208 21.1159 3.94208 19.7103C3.94208 18.6935 4.16638 17.572 4.61497 16.3458C5.09348 15.1197 5.70656 13.8785 6.45423 12.6225C7.2318 11.3664 8.09909 10.1253 9.0561 8.89909C10.043 7.64302 11.0299 6.47666 12.0168 5.40002L13.2281 6.38694C11.8823 7.97199 10.7608 9.57199 9.86357 11.1869C8.96638 12.8019 8.42806 14.3869 8.24862 15.9421C9.44488 16.0318 10.4767 16.4804 11.3439 17.2879C12.2112 18.0954 12.6449 19.1271 12.6449 20.3832ZM25.5196 20.3832C25.5196 21.5795 25.101 22.5813 24.2636 23.3888C23.4262 24.1963 22.3795 24.6 21.1234 24.6C19.9271 24.6 18.9103 24.1365 18.0729 23.2094C17.2355 22.2823 16.8168 21.1159 16.8168 19.7103C16.8168 18.6935 17.0411 17.572 17.4897 16.3458C17.9682 15.1197 18.5813 13.8785 19.329 12.6225C20.1066 11.3664 20.9739 10.1253 21.9309 8.89909C22.9178 7.64302 23.9047 6.47666 24.8916 5.40002L26.058 6.38694C24.7122 7.97199 23.5907 9.57199 22.6935 11.1869C21.8262 12.8019 21.3028 14.3869 21.1234 15.9421C22.3196 16.0318 23.3514 16.4804 24.2187 17.2879C25.086 18.0954 25.5196 19.1271 25.5196 20.3832Z" fill="#25496B"/></svg>
+                    <p>Pelayanan yang sangat memuaskan dan profesional. Dokter sangat ramah dan membantu.</p>
+                    <div class="penulis">
+                        <img src="avatar.png" alt="">
+                        <div><strong>Safira</strong><span>Pasien</span></div>
+                    </div>
+                </article>
+                <article class="ulasan-kartu">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6449 20.3832C12.6449 21.5795 12.2262 22.5813 11.3888 23.3888C10.5514 24.1963 9.50469 24.6 8.24862 24.6C7.05236 24.6 6.03554 24.1365 5.19815 23.2094C4.36077 22.2823 3.94208 21.1159 3.94208 19.7103C3.94208 18.6935 4.16638 17.572 4.61497 16.3458C5.09348 15.1197 5.70656 13.8785 6.45423 12.6225C7.2318 11.3664 8.09909 10.1253 9.0561 8.89909C10.043 7.64302 11.0299 6.47666 12.0168 5.40002L13.2281 6.38694C11.8823 7.97199 10.7608 9.57199 9.86357 11.1869C8.96638 12.8019 8.42806 14.3869 8.24862 15.9421C9.44488 16.0318 10.4767 16.4804 11.3439 17.2879C12.2112 18.0954 12.6449 19.1271 12.6449 20.3832ZM25.5196 20.3832C25.5196 21.5795 25.101 22.5813 24.2636 23.3888C23.4262 24.1963 22.3795 24.6 21.1234 24.6C19.9271 24.6 18.9103 24.1365 18.0729 23.2094C17.2355 22.2823 16.8168 21.1159 16.8168 19.7103C16.8168 18.6935 17.0411 17.572 17.4897 16.3458C17.9682 15.1197 18.5813 13.8785 19.329 12.6225C20.1066 11.3664 20.9739 10.1253 21.9309 8.89909C22.9178 7.64302 23.9047 6.47666 24.8916 5.40002L26.058 6.38694C24.7122 7.97199 23.5907 9.57199 22.6935 11.1869C21.8262 12.8019 21.3028 14.3869 21.1234 15.9421C22.3196 16.0318 23.3514 16.4804 24.2187 17.2879C25.086 18.0954 25.5196 19.1271 25.5196 20.3832Z" fill="#25496B"/></svg>
+                    <p>Konsultasi online sangat mudah dan cepat. Saya merasa lebih tenang setelah berbicara dengan dokter.</p>
+                    <div class="penulis">
+                        <img src="avatar.png" alt="">
+                        <div><strong>Wildan</strong><span>Pasien</span></div>
+                    </div>
+                </article>
+                <article class="ulasan-kartu">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6449 20.3832C12.6449 21.5795 12.2262 22.5813 11.3888 23.3888C10.5514 24.1963 9.50469 24.6 8.24862 24.6C7.05236 24.6 6.03554 24.1365 5.19815 23.2094C4.36077 22.2823 3.94208 21.1159 3.94208 19.7103C3.94208 18.6935 4.16638 17.572 4.61497 16.3458C5.09348 15.1197 5.70656 13.8785 6.45423 12.6225C7.2318 11.3664 8.09909 10.1253 9.0561 8.89909C10.043 7.64302 11.0299 6.47666 12.0168 5.40002L13.2281 6.38694C11.8823 7.97199 10.7608 9.57199 9.86357 11.1869C8.96638 12.8019 8.42806 14.3869 8.24862 15.9421C9.44488 16.0318 10.4767 16.4804 11.3439 17.2879C12.2112 18.0954 12.6449 19.1271 12.6449 20.3832ZM25.5196 20.3832C25.5196 21.5795 25.101 22.5813 24.2636 23.3888C23.4262 24.1963 22.3795 24.6 21.1234 24.6C19.9271 24.6 18.9103 24.1365 18.0729 23.2094C17.2355 22.2823 16.8168 21.1159 16.8168 19.7103C16.8168 18.6935 17.0411 17.572 17.4897 16.3458C17.9682 15.1197 18.5813 13.8785 19.329 12.6225C20.1066 11.3664 20.9739 10.1253 21.9309 8.89909C22.9178 7.64302 23.9047 6.47666 24.8916 5.40002L26.058 6.38694C24.7122 7.97199 23.5907 9.57199 22.6935 11.1869C21.8262 12.8019 21.3028 14.3869 21.1234 15.9421C22.3196 16.0318 23.3514 16.4804 24.2187 17.2879C25.086 18.0954 25.5196 19.1271 25.5196 20.3832Z" fill="#25496B"/></svg>
+                    <p>Konsultasi online sangat mudah dan cepat. Saya merasa lebih tenang setelah berbicara dengan dokter.</p>
+                    <div class="penulis">
+                        <img src="avatar.png" alt="">
+                        <div><strong>Iqbal</strong><span>Pasien</span></div>
+                    </div>
+                </article>
+                <article class="ulasan-kartu">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6449 20.3832C12.6449 21.5795 12.2262 22.5813 11.3888 23.3888C10.5514 24.1963 9.50469 24.6 8.24862 24.6C7.05236 24.6 6.03554 24.1365 5.19815 23.2094C4.36077 22.2823 3.94208 21.1159 3.94208 19.7103C3.94208 18.6935 4.16638 17.572 4.61497 16.3458C5.09348 15.1197 5.70656 13.8785 6.45423 12.6225C7.2318 11.3664 8.09909 10.1253 9.0561 8.89909C10.043 7.64302 11.0299 6.47666 12.0168 5.40002L13.2281 6.38694C11.8823 7.97199 10.7608 9.57199 9.86357 11.1869C8.96638 12.8019 8.42806 14.3869 8.24862 15.9421C9.44488 16.0318 10.4767 16.4804 11.3439 17.2879C12.2112 18.0954 12.6449 19.1271 12.6449 20.3832ZM25.5196 20.3832C25.5196 21.5795 25.101 22.5813 24.2636 23.3888C23.4262 24.1963 22.3795 24.6 21.1234 24.6C19.9271 24.6 18.9103 24.1365 18.0729 23.2094C17.2355 22.2823 16.8168 21.1159 16.8168 19.7103C16.8168 18.6935 17.0411 17.572 17.4897 16.3458C17.9682 15.1197 18.5813 13.8785 19.329 12.6225C20.1066 11.3664 20.9739 10.1253 21.9309 8.89909C22.9178 7.64302 23.9047 6.47666 24.8916 5.40002L26.058 6.38694C24.7122 7.97199 23.5907 9.57199 22.6935 11.1869C21.8262 12.8019 21.3028 14.3869 21.1234 15.9421C22.3196 16.0318 23.3514 16.4804 24.2187 17.2879C25.086 18.0954 25.5196 19.1271 25.5196 20.3832Z" fill="#25496B"/></svg>
+                    <p>Tim medis sangat kompeten dan memberikan saran yang jelas. Sangat direkomendasikan!</p>
+                    <div class="penulis">
+                        <img src="avatar.png" alt="">
+                        <div><strong>Malika</strong><span>Pasien</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- [/F] -->
+    </main>
+
+    <!-- [I] FOOTER -->
+    <footer class="footer">
+        <div class="container footer-isi">
+            <div class="footer-brand">
+                <a href="#" class="text"><span class="biru">Muhiris</span> Doctor</a>
+                <p>Tujuan utama untuk semua kebutuhan medismu</p>
+                <div class="sosial">
+                    <div class="sosial">
+                        <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M14 8h2V5h-2.5C11 5 10 6.6 10 8.7V10H8v3h2v7h3v-7h2.3l.5-3H13V9c0-.6.4-1 1-1z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm4.5-3.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h4>Jelajahi</h4>
+                <ul class="footer-link">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Bedah</a></li>
+                    <li><a href="#">Rawat Jalan</a></li>
+                    <li><a href="#">Spesialis</a></li>
+                    <li><a href="#">Konsultasi</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Tentang Kami</h4>
+                <ul class="footer-link">
+                    <li><a href="#">Siapa Kami</a></li>
+                    <li><a href="#">Visi Kami</a></li>
+                    <li><a href="#">Tim Kami</a></li>
+                    <li><a href="#">Syarat &amp; Ketentuan</a></li>
+                    <li><a href="#">Tanya Jawab</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Kontak</h4>
+                <ul class="footer-link">
+                    <li>+923041234567</li>
+                    <li>favorite@doctor.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hak-cipta">
+            <div class="container">&copy; 2026 Muhiris Doctor. Hak cipta dilindungi.</div>
+        </div>
+    </footer>
+</body>
+</html>
